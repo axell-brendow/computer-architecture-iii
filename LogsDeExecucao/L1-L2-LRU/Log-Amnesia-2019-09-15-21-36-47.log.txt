@@ -1,0 +1,77 @@
+--- Architecture Configuration ---
+----------------------------------
+
+--- Main Memory ---
+
+Memory size: 8192 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cycle: 10 time unity 
+
+--- Cache Memory ---
+
+Cache type: UNIFIED / Level: 1 
+Memory size: 64 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 4 block(s)/set 
+Write policy: WriteThrough 
+Replacement algorithm: LRU 
+
+
+Cache type: UNIFIED / Level: 2 
+Memory size: 1024 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 4 block(s)/set 
+Write policy: WriteThrough 
+Replacement algorithm: LRU 
+
+
+-------------------------
+---       Trace       ---
+---       Statistics       ---
+------------------------------
+
+Unified Cache - Level 1
+  Read Access: 8192
+  Read Cycles: 8192
+  Read Time: 8192
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 8192
+  Total Hit: 7
+  Total Miss: 8185
+  Hit/rate: 8.544922E-4
+  Total Time: 8192
+
+Unified Cache - Level 2
+  Read Access: 8185
+  Read Cycles: 8185
+  Read Time: 8185
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 8185
+  Total Hit: 6737
+  Total Miss: 1448
+  Hit/rate: 0.82309103
+  Total Time: 8185
+
+Main Memory
+  Read Access: 1448
+  Read Cycles: 1448
+  Read Time: 14480
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 1448
+  Total Time: 14480
+
+ Total Time: 30857

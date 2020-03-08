@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre1.8.0_191\bin\java.exe" %*

@@ -1,0 +1,101 @@
+--- Architecture Configuration ---
+----------------------------------
+
+--- Main Memory ---
+
+Memory size: 8192 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cycle: 10 time unity 
+
+--- Cache Memory ---
+
+Cache type: UNIFIED / Level: 1 
+Memory size: 16 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 2 block(s)/set 
+Write policy: WriteThrough 
+Replacement algorithm: LRU 
+
+
+Cache type: UNIFIED / Level: 2 
+Memory size: 256 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 2 block(s)/set 
+Write policy: WriteThrough 
+Replacement algorithm: LRU 
+
+
+Cache type: UNIFIED / Level: 3 
+Memory size: 1024 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 2 block(s)/set 
+Write policy: WriteThrough 
+Replacement algorithm: LRU 
+
+
+-------------------------
+---       Trace       ---
+---       Statistics       ---
+------------------------------
+
+Unified Cache - Level 1
+  Read Access: 8192
+  Read Cycles: 8192
+  Read Time: 8192
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 8192
+  Total Hit: 1
+  Total Miss: 8191
+  Hit/rate: 1.2207031E-4
+  Total Time: 8192
+
+Unified Cache - Level 2
+  Read Access: 8191
+  Read Cycles: 8191
+  Read Time: 8191
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 8191
+  Total Hit: 19
+  Total Miss: 8172
+  Hit/rate: 0.002319619
+  Total Time: 8191
+
+Unified Cache - Level 3
+  Read Access: 8172
+  Read Cycles: 8172
+  Read Time: 8172
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 8172
+  Total Hit: 6626
+  Total Miss: 1546
+  Hit/rate: 0.8108174
+  Total Time: 8172
+
+Main Memory
+  Read Access: 1546
+  Read Cycles: 1546
+  Read Time: 15460
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 1546
+  Total Time: 15460
+
+ Total Time: 40015
