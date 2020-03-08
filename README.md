@@ -1,2 +1,2 @@
 # computer-architecture-iii
-Repository for my discipline of Computer Architecture III
+Repository for the discipline of Computer Architecture III
